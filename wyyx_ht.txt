@@ -1,0 +1,15 @@
+d:\>h:跳转盘服
+
+npm install -g express-generator下载安装
+
+npm install -g express我也不知道是啥
+
+express -V查看版本号
+
+express  wyyx-ht 创建后面是文件名
+
+npm install 安装依赖
+
+supervisor bin/www 开启端口
+
+http://localhost:3000
