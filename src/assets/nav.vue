@@ -77,5 +77,9 @@
   }
   .tabbar ul li a span{
     font-size: 12px;
+
+  }
+  .router-link-active a{
+    color:#b4282d;
   }
 </style>
