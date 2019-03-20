@@ -11,7 +11,11 @@ export default new Router({
   routes: [
     {
       path: '/',
-      redirect: home
+      redirect: '/home'
+    },
+    {
+      path: '/home',
+      component: home
     },
     {
       path: '/classify',
@@ -22,16 +26,16 @@ export default new Router({
       component: find
     },
     {
-      path: '/home',
-      component: home
-    },
-    {
       path: '/me',
       component: me
     },
     {
       path: '/shopp',
       component: shopp
+    },
+    {
+      path: '/*',
+      redirect: '/home'
     }
   ]
 })
