@@ -4,6 +4,7 @@
    <search></search>
    <!-- 选项 -->
    <channel></channel>
+   <router-view></router-view>
   </div>
 </template>
 <script>
